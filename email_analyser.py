@@ -135,7 +135,7 @@ Received: from tracking-server.attacker-node.net (185.220.101.3) by ://enterpris
 
     # 2. Fire the engine pipeline
     # Paste your live AbuseIPDB key string inside the quotes below
-    MY_API_KEY = "294c4fb3aeada35b8e4230970685d91488ff9ebe6fd6aef9f86907beb66944614242fd298d303e55" 
+    MY_API_KEY = "GENERATED_API_KEY" 
     
     analyser = PhishingEmailAnalyser("suspicious_email.eml", api_key=MY_API_KEY)
     analyser.parse_email_headers()
